@@ -1,4 +1,4 @@
-package com.braj.examples.map;
+package com.braj.examples.java8map;
 
 
 import java.util.Arrays;

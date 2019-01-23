@@ -4,6 +4,7 @@ import java.util.Objects;
 
 //1. Final class ... Can't be subclassed (Mutability safty)
 public final class ComplexImmutable {
+    // final fields ... Not modifiable
     private final double re;
     private final double im;
 

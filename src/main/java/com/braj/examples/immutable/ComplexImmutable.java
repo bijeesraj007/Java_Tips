@@ -2,6 +2,7 @@ package com.braj.examples.immutable;
 
 import java.util.Objects;
 
+//1. Final class ... Can't be subclassed (Mutability safty)
 public final class ComplexImmutable {
     private final double re;
     private final double im;
@@ -11,7 +12,7 @@ public final class ComplexImmutable {
         this.im = im;
     }
 
-    // No setters and getters
+    //2. No setters and getters
     public double realPart(){
         return re;
     }
@@ -21,7 +22,7 @@ public final class ComplexImmutable {
     }
 
 
-    // Note that the method is not modifying existing Object rather Creating new Object
+    //3. Note that the method is not modifying existing Object rather Creating new Object
     public ComplexImmutable plus(ComplexImmutable c){
         return new ComplexImmutable(re+c.re , im +c.im);
     }

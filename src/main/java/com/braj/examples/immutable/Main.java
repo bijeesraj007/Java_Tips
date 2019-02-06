@@ -3,8 +3,11 @@ package com.braj.examples.immutable;
 public class Main {
 
 
+    //1. Here Any Operation on existing Object will not change the State . Instead it returns a new Object after applying the operation.
+    //2. Thread Safe By default. No need of synchronization.
+
+
     /**
-     * Here Any Operation on existing Object will not change the State . Instead it returns a new Object after applying the operation.
      * @param args
      */
     public static void main(String[] args) {

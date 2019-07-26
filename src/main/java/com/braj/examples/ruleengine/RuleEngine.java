@@ -12,6 +12,7 @@ public class RuleEngine {
     List<Rule> ruleArrayList = new ArrayList<>();
 
     public RuleEngine() {
+        // If you want to add all the rules by default.
         //ruleArrayList = Arrays.asList(new AndroidRule(),new IPhoneRule());
     }
 

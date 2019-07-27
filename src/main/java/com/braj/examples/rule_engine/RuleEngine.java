@@ -1,4 +1,4 @@
-package com.braj.examples.ruleengine;
+package com.braj.examples.rule_engine;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -5,7 +5,7 @@ package com.braj.examples.rule_engine;
  * IN traditional approch we check the model of the phone in a if
  * and then call the appropriate implementation.
  */
-public class Main_TraditionalWay1 {
+public class Main_TraditionalWay {
 
 
     public static void main(String[] args) {

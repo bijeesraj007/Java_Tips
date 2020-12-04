@@ -8,7 +8,7 @@ import javax.annotation.Generated;
  * 
  */
 @Generated("com.amazonaws:aws-java-sdk-code-generator")
-public enum ComparisonOperator {
+enum ComparisonOperator {
 
     EQ("EQ"),
     NE("NE"),

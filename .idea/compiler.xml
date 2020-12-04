@@ -9,5 +9,8 @@
         <module name="Java_Tips" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Java_Tips" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

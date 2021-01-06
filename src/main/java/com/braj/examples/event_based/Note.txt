@@ -1,0 +1,5 @@
+https://medium.com/97-things/events-between-java-components-39c9c0f41e55
+
+When a thing should happen when a particular action is completed.(without explicitly calling the thing)
+
+In this case , when "a" person or a group of ppl are hungry --> Coffee maker starts making coffee & Oven starts making cookies

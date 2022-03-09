@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <replaceConfiguration name="Controller GetMapping" text="@RequestMapping(value = &quot;$path$&quot;, method = RequestMethod.GET)&#10;" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="@GetMapping (&quot;$path$&quot;)&#10;">
+        <constraint name="__context__" within="" contains="" />
+        <constraint name="path" within="" contains="" />
+      </replaceConfiguration>
+    </inspection_tool>
+  </profile>
+</component>
